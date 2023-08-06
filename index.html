@@ -1,136 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Welcome to my personal portfolio! I am a passionate and skilled web developer who loves creating visually appealing and user-friendly websites.">
-    <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript, React, projects">
-    <!-- Add other relevant meta tags here -->
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor's Neuro Care Center</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Your Name</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Doctor's Neuro Care Center</h1>
+    <nav>
+      <button class="menu-toggle" onclick="toggleMenu()">Menu</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- About Me Section -->
+  <main>
     <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my personal portfolio! I am a passionate and skilled web developer who loves creating visually appealing and user-friendly websites. I have experience in HTML, CSS, JavaScript, React, and various frontend frameworks.</p>
-        <p>I am constantly exploring new technologies to enhance my skills and deliver outstanding results to clients and users.</p>
-        <h3>Skills</h3>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Bootstrap</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-        </ul>
-        <h3>Interests</h3>
-        <p>Aside from coding, I enjoy hiking, reading, and learning about the latest tech trends.</p>
+      <h2>About Us</h2>
+      <p>Welcome to the Doctor's Neuro Care Center! We are a dedicated team of neurologists and specialists committed to providing top-notch care and cutting-edge treatments for neurological conditions.</p>
+      <!-- Insert lo-fi and sci-fi artistic elements here -->
+
+      <div class="feature-box">
+        <img src="neurocare.jpg" alt="Neuro Care" class="feature-image">
+        <div class="feature-content">
+          <h3>Comprehensive Care</h3>
+          <p>Our center offers a wide range of services, from diagnosis and treatment to rehabilitation and support. We use the latest technologies and medical advancements to ensure the best outcomes for our patients.</p>
+        </div>
+      </div>
+
+      <div class="feature-box">
+        <img src="brain.jpg" alt="Brain Health" class="feature-image">
+        <div class="feature-content">
+          <h3>State-of-the-Art Facility</h3>
+          <p>Step into the future of healthcare with our advanced facility equipped with state-of-the-art equipment and research labs. Our team is always at the forefront of medical breakthroughs.</p>
+        </div>
+      </div>
+
+      <div class="artistic-element">
+        <h3>Lo-Fi Ambience</h3>
+        <p>Experience a serene and calming atmosphere in our waiting areas, designed with lo-fi vibes and subtle soundscapes to soothe your mind before your consultation.</p>
+      </div>
+
+      <div class="innovative-feature">
+        <h3>NeuroVR Therapy</h3>
+        <p>Take advantage of our cutting-edge NeuroVR therapy, an innovative virtual reality treatment that enhances traditional therapy methods for patients with neurological conditions. Step into a surreal sci-fi world that aids in healing and relaxation.</p>
+      </div>
+
+      <div class="artistic-element">
+        <h3>Interactive Art Gallery</h3>
+        <p>Immerse yourself in our interactive art gallery featuring captivating neuro-themed artwork, combining lo-fi aesthetics with futuristic elements. Explore the depths of the human mind through our digital installations.</p>
+      </div>
+
+      <div class="innovative-feature">
+        <h3>Neuro AI Assistants</h3>
+        <p>Meet our advanced Neuro AI Assistants, designed to provide personalized care and support to patients. These AI companions use machine learning algorithms to analyze patient data and offer real-time assistance in treatment plans and health monitoring.</p>
+      </div>
+
+      <div class="artistic-element">
+        <h3>Neural Music Sessions</h3>
+        <p>Enhance your healing journey with our neural music sessions. Our AI-generated music compositions are tailored to each patient's neurological patterns, promoting relaxation, focus, and well-being.</p>
+      </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et enim eget diam malesuada accumsan.</p>
-            <a href="github_project1">GitHub</a>
-            <a href="live_demo_project1">Live Demo</a>
-        </div>
-        <div class="project">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>Phasellus vel erat facilisis, blandit nisi id, consectetur tellus. Nunc nec nisi et ex pharetra aliquet.</p>
-            <a href="github_project2">GitHub</a>
-            <a href="live_demo_project2">Live Demo</a>
-        </div>
-        <!-- Add more projects here -->
-        <div class="project">
-            <img src="project3.jpg" alt="Project 3">
-            <h3>Project 3</h3>
-            <p>Donec vel est eu turpis dignissim consequat vitae in erat.</p>
-            <a href="github_project3">GitHub</a>
-            <a href="live_demo_project3">Live Demo</a>
-        </div>
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>At Doctor's Neuro Care Center, we offer a diverse range of services tailored to meet the unique needs of each patient. Our services include:</p>
+      <ul>
+        <li>Neurological Consultations</li>
+        <li>Brain Imaging and Diagnostics</li>
+        <li>Neurological Surgery</li>
+        <li>Neurorehabilitation</li>
+        <li>Brain-Computer Interfaces</li>
+        <li>Neuropharmacology</li>
+      </ul>
+      <!-- Insert lo-fi and sci-fi artistic elements here -->
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact</h2>
-        <form action="#" method="post">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+      <h2>Contact Us</h2>
+      <p>If you have any inquiries or would like to schedule an appointment, feel free to reach out to us:</p>
+      <div class="contact-info">
+        <p><strong>Address:</strong> 123 Neuro Lane, Futuristic City, FC 54321</p>
+        <p><strong>Email:</strong> info@neurocarecenter.com</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+      </div>
+      <!-- Insert lo-fi and sci-fi artistic elements here -->
     </section>
+  </main>
 
-    <!-- Blog Section -->
-    <section id="blog">
-        <h2>Blog</h2>
-        <div class="blog-post">
-            <h3>My Journey into Web Development</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et enim eget diam malesuada accumsan. Aenean eget felis sed massa tincidunt mollis.</p>
-            <a href="#comments">Leave a Comment</a>
-        </div>
-        <!-- Add more blog posts here -->
-        <div class="blog-post">
-            <h3>Tips for Frontend Developers</h3>
-            <p>Phasellus vel est eu turpis dignissim consequat vitae in erat.</p>
-            <a href="#comments">Leave a Comment</a>
-        </div>
-    </section>
+  <footer>
+    <p>&copy; 2023 Doctor's Neuro Care Center. All rights reserved.</p>
+  </footer>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-        <h2>Testimonials</h2>
-        <div class="testimonial">
-            <img src="client1.jpg" alt="Client 1">
-            <blockquote>"Your work exceeded my expectations! The website you built for my business has received numerous compliments from our clients."</blockquote>
-            <cite>- Client 1, CEO of Company XYZ</cite>
-        </div>
-        <div class="testimonial">
-            <img src="client2.jpg" alt="Client 2">
-            <blockquote>"I am impressed with your professionalism and attention to detail. Working with you was a pleasure!"</blockquote>
-            <cite>- Client 2, Marketing Manager</cite>
-        </div>
-        <!-- Add more testimonials here -->
-        <div class="testimonial">
-            <img src="client3.jpg" alt="Client 3">
-            <blockquote>"Your dedication and expertise are commendable. We are grateful for your outstanding work."</blockquote>
-            <cite>- Client 3, Project Manager</cite>
-        </div>
-    </section>
-
-    <!-- Back to Top Button -->
-    <a href="#" class="back-to-top">Back to Top</a>
-
-    <!-- Blog Comments Section -->
-    <section id="comments">
-        <h2>Comments</h2>
-        <!-- Add comment functionality here -->
-    </section>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
