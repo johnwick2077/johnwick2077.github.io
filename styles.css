@@ -1,0 +1,163 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: none;
+}
+
+/* Mobile-Friendly Styles */
+
+/* Responsive Navigation */
+nav {
+    text-align: center;
+}
+
+nav ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Responsive Project Layout */
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project img {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Blog Layout */
+.blog-post {
+    text-align: center;
+}
+
+/* Testimonial Layout */
+.testimonial img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Responsive Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Responsive Back to Top Button */
+.back-to-top {
+    display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    /* Adjust the breakpoint as needed */
+    nav ul li {
+        margin: 10px 20px;
+    }
+
+    .back-to-top {
+        display: block;
+    }
+}
